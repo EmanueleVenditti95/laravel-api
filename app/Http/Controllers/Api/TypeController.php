@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Type;
 use Illuminate\Http\Request;
 
-class TypesController extends Controller
+class TypeController extends Controller
 {
     public function index() {
         $types = Type::all();
